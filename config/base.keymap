@@ -484,7 +484,78 @@ combo_enter {
             bindings = <&kp ENTER>;
         };
 
+combo_at {
+            timeout-ms = <50>;
+            key-positions = <6 14>;
+            bindings = <&kp RS(N2)>;
+        };
+   
+   combo_and {
+            timeout-ms = <50>;
+            key-positions = <14 16>;
+            bindings = <&kp RS(N7)>;
+        };
 
+combo_percent {
+            timeout-ms = <50>;
+            key-positions = <11 28>;
+            bindings = <&kp RS(N5)>;
+        };
+
+combo_dollar {
+            timeout-ms = <50>;
+            key-positions = <16 22>;
+            bindings = <&kp RS(N4)>;
+        };
+
+combo_poundsign {
+            timeout-ms = <50>;
+            key-positions = <11 15>;
+            bindings = <&kp RS(N3)>;
+        };
+
+
+combo_plus {
+            timeout-ms = <50>;
+            key-positions = <11 22>;
+            bindings = <&kp RS(EQUAL)>;
+        };
+
+combo_underline {
+            timeout-ms = <50>;
+            key-positions = <8 22>;
+            bindings = <&kp RS(MINUS)>;
+        };
+
+combo_multiply {
+            timeout-ms = <50>;
+            key-positions = <11 33>;
+            bindings = <&kp RS(N8)>;
+        };
+
+combo_divide {
+            timeout-ms = <50>;
+            key-positions = <16 29>;
+            bindings = <&kp SLASH>;
+        };
+
+combo_power {
+            timeout-ms = <50>;
+            key-positions = <3 11>;
+            bindings = <&kp RS(N6)>;
+        };
+
+combo_wave {
+            timeout-ms = <50>;
+            key-positions = <3 4>;
+            bindings = <&kp RS(GRAVE)>;
+        };
+
+combo_grave {
+            timeout-ms = <50>;
+            key-positions = <3 4 5>;
+            bindings = <&kp GRAVE>;
+        };
 
       };
 };
