@@ -394,6 +394,95 @@ combo_questionmark {
             bindings = <&kp RS(SLASH)>;
         };
 
+combo_colon {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp RS(SEMI)>;
+        };
+
+combo_semi {
+            timeout-ms = <50>;
+            key-positions = <15 16 17>;
+            bindings = <&kp SEMI>;
+        };
+
+combo_quote {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp RS(SQT)>;
+        };
+
+combo_sqt {
+            timeout-ms = <50>;
+            key-positions = <20 21 22>;
+            bindings = <&kp SQT>;
+        };
+
+combo_lsbkt {
+            timeout-ms = <50>;
+            key-positions = <17 18>;
+            bindings = <&kp RS(N9)>;
+        };
+
+combo_rsbkt {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&kp RS(N0)>;
+        };
+
+combo_lbkt {
+            timeout-ms = <50>;
+            key-positions = <16 17 18>;
+            bindings = <&kp LBKT>;
+        };
+
+combo_rbkt {
+            timeout-ms = <50>;
+            key-positions = <19 20 21>;
+            bindings = <&kp RBKT>;
+        };
+
+combo_lbbkt {
+            timeout-ms = <50>;
+            key-positions = <15 16 17 18>;
+            bindings = <&kp RS(LBKT)>;
+        };
+
+combo_rbbkt {
+            timeout-ms = <50>;
+            key-positions = <15 16 17 18>;
+            bindings = <&kp RS(RBKT)>;
+        };
+
+combo_bslh {
+            timeout-ms = <50>;
+            key-positions = <26 27 28 29>;
+            bindings = <&kp BSLH>;
+        };
+
+combo_exclamation {
+            timeout-ms = <50>;
+            key-positions = <31 32 33>;
+            bindings = <&kp RS(N1)>;
+        };
+
+combo_langlebk {
+            timeout-ms = <50>;
+            key-positions = <26 27 28>;
+            bindings = <&kp RS(COMMA)>;
+        };
+
+combo_ranglebk {
+            timeout-ms = <50>;
+            key-positions = <27 28 29>;
+            bindings = <&kp RS(DOT)>;
+        };
+
+combo_enter {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp ENTER>;
+        };
 
 
 
