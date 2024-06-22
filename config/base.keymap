@@ -312,7 +312,7 @@ combo_1 {
 
 combo_2 {
             timeout-ms = <50>;
-            key-positions = <2 15>;
+            key-positions = <3 15>;
             bindings = <&kp N2>;
         };
 
@@ -450,7 +450,7 @@ combo_lbbkt {
 
 combo_rbbkt {
             timeout-ms = <50>;
-            key-positions = <15 16 17 18>;
+            key-positions = <19 20 21 22>;
             bindings = <&kp RS(RBKT)>;
         };
 
