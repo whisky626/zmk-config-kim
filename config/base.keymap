@@ -74,7 +74,7 @@
 //                                                                            ╰────────────────────────┴────────────────────────┴────────────────────────╯    ╰────────────────────────┴────────────────────────┴────────────────────────╯
 
       >;
-       sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN>;
+       sensor-bindings = <&scrl_encoder>;
     };
 
     Base_Qwerty_layer {
@@ -288,6 +288,14 @@
     };
 // #endif
   };
+
+behaviors {
+        scrl_encoder: scrl_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+        };
+    };
 
 combos {
         compatible = "zmk,combos";
